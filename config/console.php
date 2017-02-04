@@ -21,6 +21,9 @@ $config = [
             ],
         ],
         'db' => $db,
+        'assetManager' => [
+            'linkAssets' => false
+        ],
     ],
     'params' => $params,
     /*
